@@ -89,6 +89,21 @@ ul{
   transition: background-color 2s ease-out;
 }
 
+.linkedin-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 70%;
+}
+.linkedin {
+  border: none;
+  background: none;
+}
+
+.linkedin > img {
+  width: 100%;
+}
+
 /* LARGE SCREENS */
 @media(min-width:700px){
   .wrapper{
