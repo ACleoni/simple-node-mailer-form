@@ -89,18 +89,34 @@ ul{
   transition: background-color 2s ease-out;
 }
 
-.linkedin-container{
+.log1 {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  min-height: 70%;
+  align-items: center;
 }
-.linkedin {
+
+.log1 > button {
+  height: 80%
+}
+
+.log2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log2 > button {
+  height: 80%;
+  border-radius: .5em;
+}
+
+#linkedin {
   border: none;
   background: none;
 }
 
-.linkedin > img {
+
+#linkedin > img {
   width: 100%;
 }
 

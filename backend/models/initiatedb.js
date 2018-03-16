@@ -2,11 +2,14 @@ const Sequelize = require('sequelize')
 const User = require('./user');
 const connection = require('../database')
 
-User.sync()
+User.sync({force: true})
     .then(()=> User.create({
-        username: 'acleoni',
+        userName: 'acleoni',
         email: 'alexander.cleoni@gmail.com',
-        password: 'Desiree93!'
+        password: 'Desiree93!',
+        headline: null,
+        linkedInID: null,
+        isNewRecord: true
     }))
     .then(initialUser => {
         console.log(initialUser.toJSON());
