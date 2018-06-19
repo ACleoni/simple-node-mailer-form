@@ -36,8 +36,8 @@ router.post('/send', (req, res)=>{
     port: 465,
     secure: true,
     auth: {
-      user: 'alexandercleoni@gmail.com',
-      pass: 'Desiree93!'
+      user: 'confing.email',
+      pass: 'config.password'
     },
     tls: {
       rejectUnauthorized: false
